@@ -173,6 +173,9 @@ body{
     .question{
         font-size: 15px;
     }
+    .answer{
+        font-size: 13px;
+    }
     .qa{
         padding: 10px 0;
     }
@@ -196,6 +199,12 @@ body{
     }
     .q-section{
         margin-bottom: 10px;
+    }
+    .question{
+        font-size: 12px;
+    }
+    .answer{
+        font-size: 11px;
     }
 }
 /* active state */
