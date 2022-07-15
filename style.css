@@ -74,7 +74,7 @@ body{
     /* background-size: cover; */
     background-repeat: no-repeat;
     position: absolute;
-    top: 41%;
+    top: 39%;
     left: -113px;
     width: 220px;
     height: 170px;
@@ -124,7 +124,7 @@ body{
 
 @media(max-width:950px){
     body{
-        margin-top: 80px;
+        margin-top: 120px;
     }
     .container-card{
         grid-template-columns: repeat(1,400px);
@@ -132,7 +132,7 @@ body{
     }
     .svg-section{
         overflow: visible;
-        height: 190px;
+        /* height: 190px; */
     }
     .bg{
         background-image: url(./images/bg-pattern-mobile.svg);
@@ -173,11 +173,14 @@ body{
     }
 }
 @media(max-width:375px){
+    body{
+        margin-top: 100px;
+    }
     .container-card{
         grid-template-columns: repeat(1,320px);
     }
     .svg-section{
-        height: 120px;
+        /* height: 120px; */
     }
     .wo{
         top: -101px;
