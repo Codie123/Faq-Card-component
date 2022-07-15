@@ -128,7 +128,7 @@ body{
 
 @media(max-width:950px){
     body{
-        margin-top: 50px;
+        margin-top: 80px;
     }
     .container-card{
         grid-template-columns: repeat(1,400px);
