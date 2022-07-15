@@ -38,7 +38,6 @@ body{
     display: grid;
     grid-template-columns: repeat(2,480px);
     align-items: center;
-    /* padding: 0 50px 50px 0; */
     border-radius: 30px;
     position: relative;
     background-color: white;
@@ -145,10 +144,6 @@ body{
         height: 120px;
         background-repeat: no-repeat;
         background-position: 0px 0px;
-        /* transform: scale(.6); */
-        /* background-color: aquamarine; */
-        /* left: 2px; */
-        /* top: -37px; */
         margin-inline: auto;
         
     }
@@ -219,4 +214,3 @@ body{
 .arrow-icon.open{
     transform: rotateX(160deg);
 }
-/* svg animation */
