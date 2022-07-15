@@ -127,6 +127,9 @@ body{
 }
 
 @media(max-width:950px){
+    body{
+        margin-top: 50px;
+    }
     .container-card{
         grid-template-columns: repeat(1,400px);
 
@@ -167,7 +170,12 @@ body{
     .faq-section h1{
         text-align: center;
     }
-    .qa{}
+    .question{
+        font-size: 15px;
+    }
+    .qa{
+        padding: 10px 0;
+    }
 }
 @media(max-width:375px){
     .container-card{
